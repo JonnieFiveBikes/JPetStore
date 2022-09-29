@@ -30,3 +30,4 @@ jobs:
           git config --global user.name 'abc'
           git config --global user.email 'xyz@users.noreply.github.com'
           git commit -am "New Jpetstore War"
+          git push
