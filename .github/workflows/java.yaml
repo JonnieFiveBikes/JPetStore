@@ -29,8 +29,5 @@ jobs:
       run: |
           git config --global user.name 'abc'
           git config --global user.email 'xyz@users.noreply.github.com'
-          git remote add origin https://github.com/${{ github.repository }}
-          git config --global push.default current
-          git remote set-url origin https://${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/${{ github.repository }}
-          git commit -am "build: Image tag udpated [skip ci]"
+          git commit -am "New Jpetstore War"
           git push
