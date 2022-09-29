@@ -23,4 +23,4 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Build Jar
-      run: jar -cvf shared/app/JPetStore.jar source/*
+      run: jar -cvf shared/app/JPetStore.war source/*
